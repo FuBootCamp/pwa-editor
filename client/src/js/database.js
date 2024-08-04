@@ -18,7 +18,7 @@ const initdb = async () =>
 // TODO: Add logic to a method that accepts some content and adds it to the database
 // function to save data to the database
 export const putDb = async (content) => {
-  console.error('objectstore.put to save data to database');
+  console.log('put to save data to database');
   // open 'jate' data base 
   const jateDb = await openDB('jate', 1);
   // start a 'readwrite' transaction to access the objectstore
@@ -28,7 +28,7 @@ export const putDb = async (content) => {
   const request = store.put({ id: 1, value: content });
   // wait for the put operation
   const result = await request;
-  console.log('data saved', result.value);
+  console.log('data stored');
 };
 // TODO: Add logic for a method that gets all the content from the database
 // function to get data from the database
