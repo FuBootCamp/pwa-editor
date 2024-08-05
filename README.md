@@ -29,11 +29,23 @@ Finally, I consider that this challenge incorporates very good tools for the pro
 <a id="installation-section"></a>
 ## Installation instructions
 RENDER link
+
+https://pwa-editor-rol6.onrender.com
+
 <a id="usage-section"></a>
 ## Usage information
 
+¡Easy! Use it like a text editor!
+
+You can install and use it lika a native app.
+
+¡You can work offline! 
+
+
 <a id="test-section"></a>
 ## Test instructions
+
+To check that the application is complying with the characteristics of being a PWA, through CHROME's DEVTOOLS, opening the terminal you will be able to check the storage, manifest and service workers screens.
 
 Storage with indexDB
 
@@ -46,6 +58,11 @@ Manifets
 Service workers
 
 ![devtools storage](/utils/service-workers.png))
+
+
+
+When the application is running, you can verify that the application is installable, through the INSTALL button or from the browser in the (install) icon that appears in the address bar (known as omnibox in the case of Google Chrome, since it combines the functions of the address bar and the search bar).
+
 
 Option to install
 
