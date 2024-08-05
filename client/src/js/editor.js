@@ -32,6 +32,9 @@ export default class {
     });
 
     // Save the content of the editor when the editor itself is loses focus
+    // When the window loses focus, trigger a function to save the content
+    // of the text editor
+    
     this.editor.on('blur', () => {
       console.log('The editor has lost focus');
       putDb(localStorage.getItem('content'));
